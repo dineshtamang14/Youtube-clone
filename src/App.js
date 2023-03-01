@@ -8,7 +8,7 @@ import VideoDetail from './components/VideoDetail/video_detail';
 import Nav from './components/Nav/Nav';
 import './App.css';
 
-import API_KEY from './key';
+const API_KEY = process.env.REACT_APP_API_KEY;
 
 class App extends Component {
   state = {
