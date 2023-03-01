@@ -1,2 +1,3 @@
-const API_KEY = "AIzaSyAp06vK7LbvHlDgsRIPLEBWE5sONvzpP_Y";
+const API_KEY = process.env.API_KEY;
+
 module.exports = API_KEY; 
